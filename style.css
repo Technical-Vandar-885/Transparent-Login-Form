@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(55, 54, 55, 0.05)), url(back.png);
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+.container{
+    text-align: center;
+    height: 60vh;
+    width: 22vw;
+    box-shadow: 1px 1px 4px #02122b, -1px -1px 4px #0c1603;
+}
+form h1{
+    margin: 10px;
+}
+input{
+    height: 35px;
+    width: 17vw;
+    margin: 15px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    box-shadow: 0 1px 2px #080d1d;
+}
+.forpass{
+    text-align: right;
+}
+.forpass a{
+    color: aqua;
+    margin: 15px;
+}
+.forpass a:hover{
+    text-decoration: underline;
+
+}
+button{
+    font-size: 22px;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0 1px 2px #001122;
+    height: 35px;
+    width: 15vw;
+    margin: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(20, 228, 183, 0.699);
+}
+.another-section{
+    margin-top: 25px;
+}
+.another-section h1{
+    font-weight: 500;
+}
+.icon{
+    cursor: pointer;
+    text-align: left;
+    display: inline-block;
+    height: 35px;
+    width: 10vw;
+    background-color: #fff;
+}
+i{
+    margin: 4px 10px;
+    font-size: 30px;
+}
+span{
+    color: white;
+    position: absolute;
+    margin-top: 5px;
+    margin:5px 5px;
+    font-weight: 550;
+    font-size: 20px;
+}
+.fa-facebook-square{
+    color: white;
+}
+.facebook{
+    background: #1877f2;
+}
+.twitter{
+    background: #1da1f2;
+}
+.fa-twitter-square{
+    color: white;
+}
